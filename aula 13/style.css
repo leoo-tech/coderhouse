@@ -1,0 +1,60 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.navegacao {
+  position: fixed;
+  background-color: orange;
+  height: 100%;
+  width: 200px;
+  padding-top: 20px;
+}
+
+.nav {
+  color: white;
+  padding: 10px;
+}
+
+.header {
+  background-color: teal;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 0;
+  color: white;
+  text-align: center;
+  margin-left: 200px; /* para compensar a largura da barra de navegação */
+}
+
+.conteudo {
+  display: flex;
+  height: 15cm;
+  margin-left: 200px; /* para compensar a largura da barra de navegação */
+  flex-grow: 1;
+}
+
+.article {
+  background-color: purple;
+  color: white;
+  padding: 20px;
+  flex-grow: 1;
+}
+
+.aside {
+  background-color: orange;
+  color: white;
+  padding: 20px;
+  flex-basis: 50%;
+}
+
+.footer {
+  background-color: teal;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-left: 200px; /* para compensar a largura da barra de navegação */
+}
